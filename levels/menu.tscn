@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://c6sqkg5v2fqo"]
+
+[ext_resource type="Script" uid="uid://cjalq68066753" path="res://levels/menu.gd" id="1_lti8b"]
+[ext_resource type="PackedScene" uid="uid://d0vpckpcrpkj7" path="res://levels/parallax_menu.tscn" id="2_kfbsc"]
+
+[node name="Menu" type="Node2D" unique_id=1351692307]
+script = ExtResource("1_lti8b")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1311556304]
+position = Vector2(960, 475)
+
+[node name="Parallax2D" parent="." unique_id=43531776 instance=ExtResource("2_kfbsc")]
+
+[node name="Play" type="Button" parent="." unique_id=1756688042]
+top_level = true
+offset_left = 772.0
+offset_top = 320.0
+offset_right = 1149.4
+offset_bottom = 449.6
+theme_override_font_sizes/font_size = 50
+text = "Играть"
+metadata/_edit_use_anchors_ = true
+
+[node name="Quit" type="Button" parent="." unique_id=2003627481]
+top_level = true
+offset_left = 772.0
+offset_top = 480.0
+offset_right = 1149.4
+offset_bottom = 609.6
+theme_override_font_sizes/font_size = 50
+text = "Выход"
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

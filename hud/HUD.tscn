@@ -1,0 +1,43 @@
+[gd_scene format=3 uid="uid://c7ar8hunk4yhv"]
+
+[ext_resource type="Script" uid="uid://ema5m3maeibw" path="res://hud/HUD.gd" id="1_aqfva"]
+
+[node name="HUD" type="Control" unique_id=39319375]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_aqfva")
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=653999575]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 35
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer" unique_id=36167405]
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer" unique_id=212428288]
+layout_mode = 2
+
+[node name="HPContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer/HBoxContainer" unique_id=1752517414]
+custom_minimum_size = Vector2(0, 27)
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Control2" type="Control" parent="MarginContainer/VBoxContainer/HBoxContainer" unique_id=2050801236]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Control" type="Control" parent="MarginContainer/VBoxContainer/HBoxContainer" unique_id=1957419839]
+layout_mode = 2
+size_flags_horizontal = 3

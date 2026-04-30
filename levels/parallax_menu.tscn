@@ -1,0 +1,44 @@
+[gd_scene format=3 uid="uid://d0vpckpcrpkj7"]
+
+[ext_resource type="Script" uid="uid://dqeicvuxlm65h" path="res://levels/parallax_menu.gd" id="1_smfk5"]
+[ext_resource type="Texture2D" uid="uid://b635rlj701saa" path="res://backgrounds/Glacial-mountains-parallax-background_vnitti/Layers/sky_lightened.png" id="1_v6cmh"]
+[ext_resource type="Texture2D" uid="uid://t2nk630x6lvk" path="res://backgrounds/Glacial-mountains-parallax-background_vnitti/Layers/glacial_mountains_lightened.png" id="2_smfk5"]
+[ext_resource type="Texture2D" uid="uid://b6fld2u4al3ju" path="res://backgrounds/parallax/forest/forest_mid.png" id="3_oslgj"]
+[ext_resource type="Texture2D" uid="uid://bpasxp6v3qy0f" path="res://backgrounds/parallax/forest/forest_short.png" id="4_g2me1"]
+
+[node name="Node2D" type="Node2D" unique_id=59486857]
+
+[node name="Sky" type="Parallax2D" parent="." unique_id=43531776]
+script = ExtResource("1_smfk5")
+
+[node name="SkyLightened" type="Sprite2D" parent="Sky" unique_id=1185896051]
+position = Vector2(960, 540)
+scale = Vector2(5, 5)
+texture = ExtResource("1_v6cmh")
+
+[node name="Mountains" type="Parallax2D" parent="." unique_id=1584191555]
+repeat_size = Vector2(1920, 0)
+autoscroll = Vector2(25, 0)
+
+[node name="GlacialMountainsLightened" type="Sprite2D" parent="Mountains" unique_id=569574015]
+position = Vector2(960, 400)
+scale = Vector2(5, 5)
+texture = ExtResource("2_smfk5")
+
+[node name="Forest_middle" type="Parallax2D" parent="." unique_id=97358880]
+repeat_size = Vector2(1915, 0)
+autoscroll = Vector2(75, 0)
+
+[node name="ForestMid" type="Sprite2D" parent="Forest_middle" unique_id=1716847209]
+position = Vector2(960.5, 402)
+scale = Vector2(0.505, 0.565)
+texture = ExtResource("3_oslgj")
+
+[node name="Forest" type="Parallax2D" parent="." unique_id=1559731113]
+repeat_size = Vector2(1920, 0)
+autoscroll = Vector2(150, 0)
+
+[node name="ForestShort" type="Sprite2D" parent="Forest" unique_id=1539103341]
+position = Vector2(963, 480)
+scale = Vector2(0.5068421, 0.5)
+texture = ExtResource("4_g2me1")

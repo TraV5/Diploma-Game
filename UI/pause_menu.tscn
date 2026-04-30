@@ -1,0 +1,67 @@
+[gd_scene format=3 uid="uid://dsb20rs3bwcwx"]
+
+[node name="PauseMenu" type="Control" unique_id=88250509]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="." unique_id=490227961]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -325.0
+offset_top = -325.0
+offset_right = 325.0
+offset_bottom = 325.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel" unique_id=999063462]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -215.0
+offset_top = -161.0
+offset_right = 215.0
+offset_bottom = 161.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Resume" type="Button" parent="Panel/VBoxContainer" unique_id=960716873]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "Продолжить"
+
+[node name="Save" type="Button" parent="Panel/VBoxContainer" unique_id=680149355]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "Сохранить"
+
+[node name="Load" type="Button" parent="Panel/VBoxContainer" unique_id=128591390]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "Начать заново"
+
+[node name="Quit" type="Button" parent="Panel/VBoxContainer" unique_id=1945187229]
+layout_mode = 2
+theme_override_font_sizes/font_size = 50
+text = "Главное меню"
+
+[node name="Label" type="Label" parent="Panel" unique_id=977848555]
+layout_mode = 0
+offset_left = 184.0
+offset_top = 41.0
+offset_right = 457.0
+offset_bottom = 123.0
+theme_override_font_sizes/font_size = 50
+text = "Меню"
+horizontal_alignment = 1
