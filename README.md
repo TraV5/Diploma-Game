@@ -11,18 +11,15 @@
 1.	Изучение простого по структуре мира (прямолинейного или коридорного)
 2.	Решение не сложных головоломок (По возможности математических “Без сложных формул и т.д”)
 3.	Чтение небольших диалогов
-4.	Выбор сложности (Под большим вопросом, так как представления по разработке нету “Не влияет на головоломки”)
-5.	Поиск секретных комнат или пасхалок (Не влияет на продвижение по игре)
+4.	Поиск секретных комнат или пасхалок (Не влияет на продвижение по игре)
 
 *Будет реализовано в будущих версиях*
 
-Прототип: https://www.figma.com/file/fDDGJOciwEU6ebcc6yOHwp/Game-Journey?type=design&node-id=0-1
-
-Build 0.2: https://github.com/TraV5/2D-Game/blob/main/Build%200.2.rar
-
 Скриншоты:
 
-![image](https://github.com/TraV5/2D-Game/assets/132296559/1374ed8c-e9c2-4833-b39b-2921920f5948)
+<img width="1907" height="965" alt="image" src="https://github.com/user-attachments/assets/49c86c63-98fc-467f-874d-667274867cf8" />
 
-![image](https://github.com/TraV5/2D-Game/assets/132296559/13df7aad-5963-4fbd-826a-878df58f5189)
+
+<img width="1903" height="965" alt="image" src="https://github.com/user-attachments/assets/d54ad85b-06d8-45ef-a7c3-f36b766417b0" />
+
 
